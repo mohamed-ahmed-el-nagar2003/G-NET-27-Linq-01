@@ -66,6 +66,11 @@ namespace linq_01
             //.ThenByDescending(p => p.UnitPrice);
             #endregion
 
+            #region Q_09
+            //Get all products from the "Beverages" category, sorted by UnitsInStock descending. Print name and stock.
+           // var result = Source.ProductList.Where(p => p.Category == "Beverages").OrderByDescending(p => p.UnitsInStock).Select(p => new {p.ProductName , p.UnitsInStock});
+            #endregion
+
             //foreach (var item in result)
             //{
             //    Console.WriteLine(item);
