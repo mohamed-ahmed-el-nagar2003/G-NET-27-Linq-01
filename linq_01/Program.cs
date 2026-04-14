@@ -1,4 +1,7 @@
 ﻿using System.Collections;
+using System.Diagnostics;
+using System.Threading;
+using System.Xml.Linq;
 
 namespace linq_01
 
@@ -31,7 +34,24 @@ namespace linq_01
 
             #region Q_05
             //5. Get all products that are in stock (UnitsInStock > 0) and belong to the "Condiments" category.
-           // var result = Source.ProductList.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
+            // var result = Source.ProductList.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
+            #endregion
+
+            #region Q_06
+            //            6.Create a new anonymous type with three properties:
+            //            ● Name → the product name
+            //            ● Price → the unit price
+            //            ● StockStatus → a string: "Available" if UnitsInStock > 0,
+            //             otherwise "Out of Stock"
+            //            ● Print the result.
+
+            //var result = Source.ProductList.Select(p => new
+            //{
+            //    Name = p.ProductName,
+            //    Price = p.UnitPrice,
+            //    StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
+            //}
+            //);
             #endregion
 
             //foreach (var item in result)
