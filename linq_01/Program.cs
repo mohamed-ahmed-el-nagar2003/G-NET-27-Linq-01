@@ -88,6 +88,15 @@ namespace linq_01
             //           };
             #endregion
 
+            #region Q_11
+            //11. Show position number alongside ProductName
+            //var result = Source.ProductList.Select((p, index) => new
+            //{
+            //    Position = index + 1,
+            //    ProductName = p.ProductName
+            //});
+            #endregion
+
             //foreach (var item in result)
             //{
             //    Console.WriteLine(item);
