@@ -59,6 +59,13 @@ namespace linq_01
             //var result = Source.ProductList.Select((p , pi) => $"{pi+1}.{p.ProductName}");
             #endregion
 
+            #region Q_08
+            // 8.Sort ProductList by Category ascending, then within each category, sort by UnitPrice descending.
+            //var result = Source.ProductList
+            //.OrderBy(p => p.Category)
+            //.ThenByDescending(p => p.UnitPrice);
+            #endregion
+
             //foreach (var item in result)
             //{
             //    Console.WriteLine(item);
