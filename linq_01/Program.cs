@@ -54,6 +54,11 @@ namespace linq_01
             //);
             #endregion
 
+            #region Q_07
+            //7. Print each product's name along with its position (1-based) in the list. Expected format: 1.Chai, 2.Chang, etc.
+            //var result = Source.ProductList.Select((p , pi) => $"{pi+1}.{p.ProductName}");
+            #endregion
+
             //foreach (var item in result)
             //{
             //    Console.WriteLine(item);
