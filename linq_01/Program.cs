@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Diagnostics.Metrics;
 using System.Threading;
 using System.Xml.Linq;
 
@@ -111,6 +112,16 @@ namespace linq_01
             //}
             #endregion
 
+            #region Q_13
+            //13. Create a list of all digits in the array whose second letter is 'i' that is reversed from the order in the original array.
+
+            //string[] digits = {
+            // "zero", "one", "two", "three", "four",
+            // "five", "six", "seven", "eight", "nine" };
+            //var result = digits
+            //    .Where(d => d[1] == 'i')
+            //    .Reverse();
+            #endregion
             //foreach (var item in result)
             //{
             //    Console.WriteLine(item);
